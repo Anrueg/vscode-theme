@@ -1,0 +1,32 @@
+{
+  "name": "anrueg",
+  "displayName": "Anrueg",
+  "description": "Nice looking color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Anrueg - Brown",
+        "uiTheme": "vs-dark",
+        "path": "./themes/anrueg-brown-theme.json"
+      },
+      {
+        "label": "Anrueg - Cold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/anrueg-cold-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "bun run --watch generate.ts"
+  },
+  "devDependencies": {
+    "color": "^5.0.0"
+  }
+}
