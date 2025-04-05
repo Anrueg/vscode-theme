@@ -1,6 +1,6 @@
 {
-  "name": "anrueg",
-  "displayName": "Anrueg",
+  "name": "zozzz-theme",
+  "displayName": "Zozzz's Theme",
   "description": "Nice looking color theme",
   "version": "0.0.1",
   "engines": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anrueg/vscode-theme"
+    "url": "https://github.com/zozzz/vscode-theme"
   },
   "categories": [
     "Themes"
@@ -16,14 +16,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Anrueg - Brown",
+        "label": "Zozzz - Brown",
         "uiTheme": "vs-dark",
-        "path": "./themes/anrueg-brown-theme.json"
+        "path": "./themes/brown-theme.json"
       },
       {
-        "label": "Anrueg - Cold",
+        "label": "Zozzz - Cold",
         "uiTheme": "vs-dark",
-        "path": "./themes/anrueg-cold-theme.json"
+        "path": "./themes/cold-theme.json"
       }
     ]
   },

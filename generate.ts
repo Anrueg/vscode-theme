@@ -935,7 +935,7 @@ const Themes = {
 }
 
 for (const [themeName, theme] of Object.entries(Themes)) {
-    fs.writeFileSync(`themes/anrueg-${themeName}-theme.json`, JSON.stringify(theme, null, 2))
+    fs.writeFileSync(`themes/${themeName}-theme.json`, JSON.stringify(theme, null, 2))
 
 }
 
