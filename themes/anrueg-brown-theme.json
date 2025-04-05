@@ -173,9 +173,6 @@
     "editorWidget.foreground": "#CCCCCC",
     "editorWidget.border": "#BE7341",
     "editorWidget.resizeBorder": "#130D0200",
-    "editorGhostText.border": "#639FAB",
-    "editorGhostText.background": "#639FAB1A",
-    "editorGhostText.foreground": "#639FABB3",
     "gitDecoration.addedResourceForeground": "#25A16E",
     "gitDecoration.untrackedResourceForeground": "#25A16E",
     "gitDecoration.modifiedResourceForeground": "#639FAB",
@@ -212,10 +209,10 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "parameter": {
-      "foreground": "#639FAB"
+      "foreground": "#A76EB1"
     },
     "parameter.declaration": {
-      "foreground": "#639FAB"
+      "foreground": "#A76EB1"
     },
     "selfParameter": {
       "foreground": "#BE7341"
@@ -274,6 +271,9 @@
     "class.builtin": {
       "bold": true
     },
+    "class.decorator": {
+      "foreground": "#4079C9"
+    },
     "class.declaration": {
       "foreground": "#DE5454"
     },
@@ -290,16 +290,19 @@
       "foreground": "#D43A7F"
     },
     "method": {
-      "foreground": "#A76EB1"
+      "foreground": "#639FAB"
     },
     "method.declaration": {
-      "foreground": "#A76EB1"
+      "foreground": "#639FAB"
+    },
+    "method.decorator": {
+      "foreground": "#4079C9"
     },
     "function": {
-      "foreground": "#A76EB1"
+      "foreground": "#639FAB"
     },
     "function.declaration": {
-      "foreground": "#A76EB1"
+      "foreground": "#639FAB"
     },
     "variable": {
       "foreground": "#CCCCCC"
@@ -488,7 +491,7 @@
     {
       "name": "functionDef",
       "settings": {
-        "foreground": "#A76EB1"
+        "foreground": "#639FAB"
       },
       "scope": [
         "meta.function entity.name.function",
@@ -499,7 +502,7 @@
     {
       "name": "functionRef",
       "settings": {
-        "foreground": "#A76EB1"
+        "foreground": "#639FAB"
       },
       "scope": [
         "meta.function-call entity.name.function",
@@ -543,7 +546,7 @@
     {
       "name": "paramDef",
       "settings": {
-        "foreground": "#639FAB"
+        "foreground": "#A76EB1"
       },
       "scope": [
         "meta.parameters variable.parameter",
@@ -571,10 +574,12 @@
         "meta.enum > entity.name.type.enum",
         "entity.name.type.anchor.yaml",
         "punctuation.definition.anchor.yaml",
-        "entity.name.tag",
         "text.pug meta.tag constant.name.attribute.tag",
         "meta.table.toml punctuation",
-        "meta.table.toml support.type.property-name"
+        "meta.table.toml support.type.property-name",
+        "entity.name.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
       ]
     },
     {
@@ -626,7 +631,8 @@
         "expression.ng variable",
         "text.html.markdown punctuation.definition.link",
         "text.html.markdown meta.link string",
-        "text.html.markdown meta.link punctuation.definition.metadata"
+        "text.html.markdown meta.link punctuation.definition.metadata",
+        "meta.property-list.scss"
       ]
     },
     {

@@ -8,7 +8,7 @@
     "selection.background": "#7595D1",
     "focusBorder": "#7595D180",
     "descriptionForeground": "#58627A",
-    "errorForeground": "#cf9777",
+    "errorForeground": "#D79570",
     "icon.foreground": "#7595D1",
     "widget.border": "#7595D1",
     "widget.shadow": "#7595D133",
@@ -35,7 +35,7 @@
     "terminal.ansiCyan": "#67bbb3",
     "terminal.ansiGreen": "#94b399",
     "terminal.ansiMagenta": "#c684b5",
-    "terminal.ansiRed": "#cf9777",
+    "terminal.ansiRed": "#D79570",
     "terminal.ansiWhite": "#d8dee9",
     "terminal.ansiYellow": "#D9B073",
     "terminal.ansiBrightBlack": "#373E4D",
@@ -43,7 +43,7 @@
     "terminal.ansiBrightCyan": "#8FCDC7",
     "terminal.ansiBrightGreen": "#BACEBD",
     "terminal.ansiBrightMagenta": "#DBB1D0",
-    "terminal.ansiBrightRed": "#E0BCA7",
+    "terminal.ansiBrightRed": "#E5BBA3",
     "terminal.ansiBrightWhite": "#9FADC9",
     "terminal.ansiBrightYellow": "#E7CDA7",
     "terminal.selectionBackground": "#40495A",
@@ -80,7 +80,7 @@
     "activityWarningBadge.foreground": "#d8dee9",
     "activityWarningBadge.background": "#D9B073",
     "activityErrorBadge.foreground": "#d8dee9",
-    "activityErrorBadge.background": "#cf9777",
+    "activityErrorBadge.background": "#D79570",
     "activityBar.activeBorder": "#7595D1",
     "activityBar.activeBackground": "#7595D11A",
     "activityBar.activeFocusBorder": "#4079C9",
@@ -105,8 +105,8 @@
     "inputOption.activeBorder": "#7595D1",
     "inputOption.activeForeground": "#FFF",
     "inputOption.hoverBackground": "#7595D1",
-    "inputValidation.errorBackground": "#cf9777",
-    "inputValidation.errorBorder": "#cf9777",
+    "inputValidation.errorBackground": "#D79570",
+    "inputValidation.errorBorder": "#D79570",
     "inputValidation.errorForeground": "#2e3440",
     "inputValidation.infoBackground": "#7595D1",
     "inputValidation.infoBorder": "#7595D1",
@@ -131,7 +131,7 @@
     "list.highlightForeground": "#7595D1",
     "list.inactiveSelectionBackground": "#7595D11A",
     "list.invalidItemForeground": "#c684b5",
-    "list.errorForeground": "#cf9777",
+    "list.errorForeground": "#D79570",
     "list.warningForeground": "#D9B073",
     "list.deemphasizedForeground": "#FF0000",
     "tree.indentGuidesStroke": "#D8DEE933",
@@ -165,7 +165,7 @@
     "notifications.background": "#2e3440",
     "notifications.border": "#D8DEE91A",
     "notificationLink.foreground": "#7595D1",
-    "notificationsErrorIcon.foreground": "#cf9777",
+    "notificationsErrorIcon.foreground": "#D79570",
     "notificationsWarningIcon.foreground": "#D9B073",
     "notificationsInfoIcon.foreground": "#7595D1",
     "notificationToast.border": "#7595D1",
@@ -173,13 +173,10 @@
     "editorWidget.foreground": "#d8dee9",
     "editorWidget.border": "#7595D1",
     "editorWidget.resizeBorder": "#252A3300",
-    "editorGhostText.border": "#67bbb3",
-    "editorGhostText.background": "#67BBB31A",
-    "editorGhostText.foreground": "#67BBB3B3",
     "gitDecoration.addedResourceForeground": "#94b399",
     "gitDecoration.untrackedResourceForeground": "#94b399",
     "gitDecoration.modifiedResourceForeground": "#67bbb3",
-    "gitDecoration.deletedResourceForeground": "#cf9777",
+    "gitDecoration.deletedResourceForeground": "#D79570",
     "gitDecoration.renamedResourceForeground": "#94b399",
     "gitDecoration.stageModifiedResourceForeground": "#CF9777",
     "gitDecoration.ignoredResourceForeground": "#D8DEE94D",
@@ -206,16 +203,16 @@
     "editorBracketMatch.border": "#D8DEE900",
     "editorGutter.modifiedBackground": "#94b399",
     "editorGutter.addedBackground": "#94b399",
-    "editorGutter.deletedBackground": "#cf9777",
+    "editorGutter.deletedBackground": "#D79570",
     "editorGutter.commentRangeForeground": "#58627A"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "parameter": {
-      "foreground": "#67bbb3"
+      "foreground": "#B695BB"
     },
     "parameter.declaration": {
-      "foreground": "#67bbb3"
+      "foreground": "#B695BB"
     },
     "selfParameter": {
       "foreground": "#CF9777"
@@ -257,7 +254,7 @@
       "foreground": "#d8dee9"
     },
     "property.declaration": {
-      "foreground": "#8295B8"
+      "foreground": "#6F81A5"
     },
     "property.declaration.readonly": {
       "foreground": "#c684b5"
@@ -266,22 +263,25 @@
       "foreground": "#6F81A5"
     },
     "struct.declaration": {
-      "foreground": "#cf9777"
+      "foreground": "#D79570"
     },
     "struct": {
-      "foreground": "#cf9777"
+      "foreground": "#D79570"
     },
     "class.builtin": {
       "bold": true
     },
+    "class.decorator": {
+      "foreground": "#7595D1"
+    },
     "class.declaration": {
-      "foreground": "#cf9777"
+      "foreground": "#D79570"
     },
     "enum.declaration": {
-      "foreground": "#cf9777"
+      "foreground": "#D79570"
     },
     "enum": {
-      "foreground": "#cf9777"
+      "foreground": "#D79570"
     },
     "enumMember": {
       "foreground": "#c684b5"
@@ -290,16 +290,19 @@
       "foreground": "#c684b5"
     },
     "method": {
-      "foreground": "#BB8EC2"
+      "foreground": "#67bbb3"
     },
     "method.declaration": {
-      "foreground": "#BB8EC2"
+      "foreground": "#67bbb3"
+    },
+    "method.decorator": {
+      "foreground": "#7595D1"
     },
     "function": {
-      "foreground": "#BB8EC2"
+      "foreground": "#67bbb3"
     },
     "function.declaration": {
-      "foreground": "#BB8EC2"
+      "foreground": "#67bbb3"
     },
     "variable": {
       "foreground": "#d8dee9"
@@ -320,10 +323,10 @@
       "foreground": "#c684b5"
     },
     "tomlTableKey": {
-      "foreground": "#8295B8"
+      "foreground": "#6F81A5"
     },
     "tomlArrayKey": {
-      "foreground": "#8295B8"
+      "foreground": "#6F81A5"
     },
     "generic.injected": {
       "foreground": "#d8dee9"
@@ -488,7 +491,7 @@
     {
       "name": "functionDef",
       "settings": {
-        "foreground": "#BB8EC2"
+        "foreground": "#67bbb3"
       },
       "scope": [
         "meta.function entity.name.function",
@@ -499,7 +502,7 @@
     {
       "name": "functionRef",
       "settings": {
-        "foreground": "#BB8EC2"
+        "foreground": "#67bbb3"
       },
       "scope": [
         "meta.function-call entity.name.function",
@@ -543,7 +546,7 @@
     {
       "name": "paramDef",
       "settings": {
-        "foreground": "#67bbb3"
+        "foreground": "#B695BB"
       },
       "scope": [
         "meta.parameters variable.parameter",
@@ -563,7 +566,7 @@
     {
       "name": "typeDef",
       "settings": {
-        "foreground": "#cf9777"
+        "foreground": "#D79570"
       },
       "scope": [
         "meta.class > entity.name.type.class",
@@ -571,16 +574,18 @@
         "meta.enum > entity.name.type.enum",
         "entity.name.type.anchor.yaml",
         "punctuation.definition.anchor.yaml",
-        "entity.name.tag",
         "text.pug meta.tag constant.name.attribute.tag",
         "meta.table.toml punctuation",
-        "meta.table.toml support.type.property-name"
+        "meta.table.toml support.type.property-name",
+        "entity.name.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
       ]
     },
     {
       "name": "typeRef",
       "settings": {
-        "foreground": "#cf9777"
+        "foreground": "#D79570"
       },
       "scope": [
         "entity.other.inherited-class",
@@ -595,7 +600,7 @@
     {
       "name": "typeAnnot",
       "settings": {
-        "foreground": "#cf9777"
+        "foreground": "#D79570"
       },
       "scope": [
         "meta.type.annotation",
@@ -608,7 +613,7 @@
     {
       "name": "propertyDef",
       "settings": {
-        "foreground": "#8295B8"
+        "foreground": "#6F81A5"
       },
       "scope": [
         "meta.object-literal.key",
@@ -626,7 +631,8 @@
         "expression.ng variable",
         "text.html.markdown punctuation.definition.link",
         "text.html.markdown meta.link string",
-        "text.html.markdown meta.link punctuation.definition.metadata"
+        "text.html.markdown meta.link punctuation.definition.metadata",
+        "meta.property-list.scss"
       ]
     },
     {

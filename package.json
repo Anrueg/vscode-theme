@@ -24,7 +24,8 @@
     ]
   },
   "scripts": {
-    "start": "bun run --watch generate.ts"
+    "start": "bun run --watch generate.ts",
+    "build": "bun run generate.ts && vsce package"
   },
   "devDependencies": {
     "color": "^5.0.0"
